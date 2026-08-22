@@ -227,10 +227,3 @@ The RDP Failed panel showed real, heavy attacker volume: thousands of failed att
 - Real attacker data is more useful than data I'd make up myself for testing detection logic. The brute-force alerts and dashboards here are validated against genuine attack traffic, not staged events.
 
 ---
-
-## Next Steps
-
-- [ ] Bring another Linux endpoint online with Sysmon-equivalent monitoring
-- [ ] Expand detection coverage past brute-force, toward things like privilege escalation or lateral movement indicators
-- [ ] Look into adversary simulation with a C2 framework to validate detections end to end
-- [ ] Write up incident response runbooks based on the alerts already in place
